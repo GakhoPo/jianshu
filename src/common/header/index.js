@@ -1,10 +1,10 @@
-import React, { PureComponent } from 'react';
-import { CSSTransition } from 'react-transition-group';
-import { Link } from 'react-router-dom';
-import { connect } from 'react-redux';
-import { actionCreators } from './store';
-import { actionCreators as loginActionCreators} from '../../pages/login/store';
-import { 
+import React, { PureComponent } from "react";
+import { CSSTransition } from "react-transition-group";
+import { Link } from "react-router-dom";
+import { connect } from "react-redux";
+import { actionCreators } from "./store";
+import { actionCreators as loginActionCreators } from "../../pages/login/store";
+import {
     HeadWrapper,
     Logo,
     Nav,
@@ -17,52 +17,77 @@ import {
     SearchWrapper,
     NavSearch,
     Addition,
-    Button
-} from './style';
+    Button,
+} from "./style";
 
 class Header extends PureComponent {
-    
     getListArea() {
-        const { focused, list, page, totalPage, mouseIn, handleMouseEnter, handleMouseLeave, handlePageChange } = this.props;
+        const {
+            focused,
+            list,
+            page,
+            totalPage,
+            mouseIn,
+            handleMouseEnter,
+            handleMouseLeave,
+            handlePageChange,
+        } = this.props;
         const jsList = list.toJS();
         const pageList = [];
 
-        if(jsList.length) {
-            for(let i = page * 10; i < (page + 1) * 10; i++) {
-                pageList.push(<SearchInfoItem key={jsList[i]}>{jsList[i]}</SearchInfoItem>);
-            }    
+        if (jsList.length) {
+            for (let i = page * 10; i < (page + 1) * 10; i++) {
+                pageList.push(
+                    <SearchInfoItem key={jsList[i]}>{jsList[i]}</SearchInfoItem>
+                );
+            }
         }
-        
-        if(focused || mouseIn) {
+
+        if (focused || mouseIn) {
             return (
-                <SearchInfo 
-                onMouseEnter={handleMouseEnter}
-                onMouseLeave={handleMouseLeave}
+                <SearchInfo
+                    onMouseEnter={handleMouseEnter}
+                    onMouseLeave={handleMouseLeave}
                 >
                     <SearchInfoTitle>
                         热门搜索
-                        <SearchInfoSwitch 
-                            onClick={() => handlePageChange(page, totalPage, this.spinIcon)}>
-                            <i ref={(icon) => {this.spinIcon = icon}} className='iconfont spin'>&#xe601;</i>
+                        <SearchInfoSwitch
+                            onClick={() =>
+                                handlePageChange(page, totalPage, this.spinIcon)
+                            }
+                        >
+                            <i
+                                ref={(icon) => {
+                                    this.spinIcon = icon;
+                                }}
+                                className='iconfont spin'
+                            >
+                                &#xe601;
+                            </i>
                             换一批
                         </SearchInfoSwitch>
-                        <SearchInfoList>
-                            {pageList}
-                        </SearchInfoList>
+                        <SearchInfoList>{pageList}</SearchInfoList>
                     </SearchInfoTitle>
                 </SearchInfo>
             );
         } else {
             return null;
         }
-    };
+    }
 
     render() {
-        const { focused, handleInputFocus, handleInputBlur, list, login, accountLogout } = this.props;
-        return ( 
+        const {
+            focused,
+            handleInputFocus,
+            handleInputBlur,
+            list,
+            login,
+            accountLogout,
+        } = this.props;
+        return (
             <HeadWrapper>
                 <Link to='/'>
-                    <Logo/>
+                    <Logo />
                 </Link>
                 <Nav>
                     <NavItem className='left active'>
@@ -71,11 +96,17 @@ class Header extends PureComponent {
                     </NavItem>
                     <NavItem className='left'>
                         <i className='iconfont'>&#xe6d4;</i>
-                         下载App
+                        下载App
                     </NavItem>
-                    {login ? 
-                    <NavItem className='right' onClick={accountLogout}>退出</NavItem> : 
-                    <Link to='/login'><NavItem className='right'>登陆</NavItem></Link>}
+                    {login ? (
+                        <NavItem className='right' onClick={accountLogout}>
+                            退出
+                        </NavItem>
+                    ) : (
+                        <Link to='/login'>
+                            <NavItem className='right'>登陆</NavItem>
+                        </Link>
+                    )}
                     <NavItem className='right'>
                         <i className='iconfont'>&#xe600;</i>
                     </NavItem>
@@ -83,17 +114,23 @@ class Header extends PureComponent {
                         <CSSTransition
                             in={focused}
                             timeout={200}
-                            classNames="slide"
+                            classNames='slide'
                         >
                             <NavSearch
-                                className={focused ? 'focused' : ''}
+                                className={focused ? "focused" : ""}
                                 onFocus={() => handleInputFocus(list)}
                                 onBlur={handleInputBlur}
                             ></NavSearch>
                         </CSSTransition>
-                        <i 
-                        className={focused ? 'focused iconfont zoom' : 'iconfont zoom'}
-                        >&#xe64a;</i>
+                        <i
+                            className={
+                                focused
+                                    ? "focused iconfont zoom"
+                                    : "iconfont zoom"
+                            }
+                        >
+                            &#xe64a;
+                        </i>
                         {this.getListArea()}
                     </SearchWrapper>
                 </Nav>
@@ -107,19 +144,19 @@ class Header extends PureComponent {
                     <Button className='reg'>注册</Button>
                 </Addition>
             </HeadWrapper>
-         );
+        );
     }
-};
- 
+}
+
 const mapStateToProps = (state) => {
     return {
-        focused: state.getIn(['header', 'focused']),
-        list: state.getIn(['header', 'list']),
-        page: state.getIn(['header', 'page']),
-        totalPage: state.getIn(['header', 'totalPage']),
-        mouseIn: state.getIn(['header', 'mouseIn']),
-        login: state.getIn(['login', 'login']),
-    }
+        focused: state.getIn(["header", "focused"]),
+        list: state.getIn(["header", "list"]),
+        page: state.getIn(["header", "page"]),
+        totalPage: state.getIn(["header", "totalPage"]),
+        mouseIn: state.getIn(["header", "mouseIn"]),
+        login: state.getIn(["login", "login"]),
+    };
 };
 
 const mapDispatchToProps = (dispatch) => {
@@ -142,25 +179,24 @@ const mapDispatchToProps = (dispatch) => {
         },
 
         handlePageChange(page, totalPage, spin) {
-            let originAngle = spin.style.transform.replace(/[^0-9]/ig, '');
-            if(originAngle) {
+            let originAngle = spin.style.transform.replace(/[^0-9]/gi, "");
+            if (originAngle) {
                 originAngle = parseInt(originAngle, 10);
             } else {
                 originAngle = 0;
             }
-            spin.style.transform = 'rotate('+(originAngle + 360)+'deg)';
-            if(page === totalPage) {
+            spin.style.transform = "rotate(" + (originAngle + 360) + "deg)";
+            if (page === totalPage) {
                 dispatch(actionCreators.pageChange(0));
-            } else if(page < totalPage) {
+            } else if (page < totalPage) {
                 dispatch(actionCreators.pageChange(page + 1));
             }
-            
         },
 
         accountLogout() {
-            dispatch(loginActionCreators.accountLogout())
-        }
-    }
+            dispatch(loginActionCreators.accountLogout());
+        },
+    };
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(Header);

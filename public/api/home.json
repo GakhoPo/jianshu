@@ -1,136 +1,158 @@
 {
     "success": true,
     "data": {
-        "topicList": [{
-            "id": 1,
-            "title": "社会热点"
-        },{
-            "id":2,
-            "title": "手绘"
-        },{
-            "id":3,
-            "title": "简书电影"
-        },{
-            "id":4,
-            "title": "读书"
-        },{
-            "id":5,
-            "title": "摄影"
-        },{
-            "id":6,
-            "title": "旅行-在路上"
-        },{
-            "id":7,
-            "title": "历史"
-        }
+        "topicList": [
+            {
+                "id": 1,
+                "title": "社会热点"
+            },
+            {
+                "id": 2,
+                "title": "手绘"
+            },
+            {
+                "id": 3,
+                "title": "简书电影"
+            },
+            {
+                "id": 4,
+                "title": "读书"
+            },
+            {
+                "id": 5,
+                "title": "摄影"
+            },
+            {
+                "id": 6,
+                "title": "旅行-在路上"
+            },
+            {
+                "id": 7,
+                "title": "历史"
+            }
         ],
-        "articalList": [{
-            "id": 1,
-            "imgUrl": "https://upload-images.jianshu.io/upload_images/23488806-8ebae730d29122c4.JPG?imageMogr2/auto-orient/strip|imageView2/1/w/360/h/240",
-            "title": "戴望舒——在最美的时光里错过",
-            "desc": "【青•故事优选】[https://www.jianshu.com/c/11c8f8761ed1]专题推荐文章 01 撑着油纸伞，独自彷徨在悠长，...",
-            "diamond": 1625.2,
-            "writter": "叶梓木",
-            "comment": 140,
-            "like": 1039,
-            "shang": 4
-        },{
-            "id": 2,
-            "imgUrl": "https://upload-images.jianshu.io/upload_images/1202579-5fdd95192a9891fd.image?imageMogr2/auto-orient/strip|imageView2/1/w/360/h/240",
-            "title": "香港情侣在5平米廉租房的一幕，撕开了穷人最心酸的遮羞布",
-            "desc": "01 前几天看了一篇报道，记录了香港一对年轻情侣，挤住在5平米房间里生活的场景。 5平米什么概念？普通人家的厕所都比这要宽敞，而她们却要在这里夹...",
-            "diamond": 76.9,
-            "writter": "精读君",
-            "comment": 107,
-            "like": 667,
-            "shang": 1
-        },{
-            "id": 3,
-            "imgUrl": "https://upload-images.jianshu.io/upload_images/5172867-6f40931386bedfe9?imageMogr2/auto-orient/strip|imageView2/1/w/360/h/240",
-            "title": "30岁后，再看林徽因与张爱玲：一个“世故”，一个“凉薄”",
-            "desc": "说起民国时期的才女，不得不提林徽因和张爱玲，她们一个像“人间四月天”，一个怀揣“天才梦”，一个在建筑界居功至伟，一个在文学界无出其右。 两人相差...",
-            "diamond": 50.6,
-            "writter": "倾叶轩",
-            "comment": 37,
-            "like": 424,
-            "shang": 1
-        },{
-            "id": 4,
-            "imgUrl": "https://upload-images.jianshu.io/upload_images/3095874-06edb5465e2c818e.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/360/h/240",
-            "title": "《两地书》：那么远，这么近",
-            "desc": "这世上有许多纯属偶然的事，譬如我与《两地书》的遇见。它像一粒飞来的石子，令我心中起了涟漪，在静夜中，这涟漪又无声地一圈圈扩散——化作思想的火花，...",
-            "diamond": 8.3,
-            "writter": "涧水清清",
-            "comment": 6,
-            "like": 32,
-            "shang": 1
-        },{
-            "id": 5,
-            "imgUrl": "https://upload-images.jianshu.io/upload_images/1222654-5f5e5673bcc99dcb.png?imageMogr2/auto-orient/strip|imageView2/1/w/360/h/240",
-            "title": "谈谈“B端C端化”",
-            "desc": "背景： 最近流行一个词”B端C端化“，认为可以用C端的模式和思维来进行B端产品的设计，今天就这个问题聊聊自己的一些看法： B端C端化我的理解是：...",
-            "diamond": 37.4,
-            "writter": "几个字的思考",
-            "comment": 11,
-            "like": 147,
-            "shang": 2
-        },{
-            "id": 6,
-            "imgUrl": "https://upload-images.jianshu.io/upload_images/1179389-f501d16f552d5359.png?imageMogr2/auto-orient/strip|imageView2/1/w/360/h/240",
-            "title": "自从掌握了软件开发的 5 条核心原则，我每天工作时至少可以多摸鱼 4 个小时",
-            "desc": "作为一名程序员，小伙伴们有没有想过这个简单的问题，“软件是什么？”可以闭上眼睛让自己想一会，如果觉得有点抽象不太好回答的话，来看看我的答案。 软...",
-            "diamond": 5.6,
-            "writter": "沉默王二",
-            "comment": 12,
-            "like": 100,
-            "shang": 0
-        }
+        "articalList": [
+            {
+                "id": 1,
+                "imgUrl": "https://upload-images.jianshu.io/upload_images/23488806-8ebae730d29122c4.JPG?imageMogr2/auto-orient/strip|imageView2/1/w/360/h/240",
+                "title": "戴望舒——在最美的时光里错过",
+                "desc": "【青•故事优选】[https://www.jianshu.com/c/11c8f8761ed1]专题推荐文章 01 撑着油纸伞，独自彷徨在悠长，...",
+                "diamond": 1625.2,
+                "writter": "叶梓木",
+                "comment": 140,
+                "like": 1039,
+                "shang": 4
+            },
+            {
+                "id": 2,
+                "imgUrl": "https://upload-images.jianshu.io/upload_images/1202579-5fdd95192a9891fd.image?imageMogr2/auto-orient/strip|imageView2/1/w/360/h/240",
+                "title": "香港情侣在5平米廉租房的一幕，撕开了穷人最心酸的遮羞布",
+                "desc": "01 前几天看了一篇报道，记录了香港一对年轻情侣，挤住在5平米房间里生活的场景。 5平米什么概念？普通人家的厕所都比这要宽敞，而她们却要在这里夹...",
+                "diamond": 76.9,
+                "writter": "精读君",
+                "comment": 107,
+                "like": 667,
+                "shang": 1
+            },
+            {
+                "id": 3,
+                "imgUrl": "https://upload-images.jianshu.io/upload_images/5172867-6f40931386bedfe9?imageMogr2/auto-orient/strip|imageView2/1/w/360/h/240",
+                "title": "30岁后，再看林徽因与张爱玲：一个“世故”，一个“凉薄”",
+                "desc": "说起民国时期的才女，不得不提林徽因和张爱玲，她们一个像“人间四月天”，一个怀揣“天才梦”，一个在建筑界居功至伟，一个在文学界无出其右。 两人相差...",
+                "diamond": 50.6,
+                "writter": "倾叶轩",
+                "comment": 37,
+                "like": 424,
+                "shang": 1
+            },
+            {
+                "id": 4,
+                "imgUrl": "https://upload-images.jianshu.io/upload_images/3095874-06edb5465e2c818e.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/360/h/240",
+                "title": "《两地书》：那么远，这么近",
+                "desc": "这世上有许多纯属偶然的事，譬如我与《两地书》的遇见。它像一粒飞来的石子，令我心中起了涟漪，在静夜中，这涟漪又无声地一圈圈扩散——化作思想的火花，...",
+                "diamond": 8.3,
+                "writter": "涧水清清",
+                "comment": 6,
+                "like": 32,
+                "shang": 1
+            },
+            {
+                "id": 5,
+                "imgUrl": "https://upload-images.jianshu.io/upload_images/1222654-5f5e5673bcc99dcb.png?imageMogr2/auto-orient/strip|imageView2/1/w/360/h/240",
+                "title": "谈谈“B端C端化”",
+                "desc": "背景： 最近流行一个词”B端C端化“，认为可以用C端的模式和思维来进行B端产品的设计，今天就这个问题聊聊自己的一些看法： B端C端化我的理解是：...",
+                "diamond": 37.4,
+                "writter": "几个字的思考",
+                "comment": 11,
+                "like": 147,
+                "shang": 2
+            },
+            {
+                "id": 6,
+                "imgUrl": "https://upload-images.jianshu.io/upload_images/1179389-f501d16f552d5359.png?imageMogr2/auto-orient/strip|imageView2/1/w/360/h/240",
+                "title": "自从掌握了软件开发的 5 条核心原则，我每天工作时至少可以多摸鱼 4 个小时",
+                "desc": "作为一名程序员，小伙伴们有没有想过这个简单的问题，“软件是什么？”可以闭上眼睛让自己想一会，如果觉得有点抽象不太好回答的话，来看看我的答案。 软...",
+                "diamond": 5.6,
+                "writter": "沉默王二",
+                "comment": 12,
+                "like": 100,
+                "shang": 0
+            }
         ],
-        "recommendList": [{
-            "id": 1,
-            "imgUrl": "https://cdn2.jianshu.io/assets/web/banner-s-daily-e6f6601abc495573ad37f2532468186f.png"
-        },{
-            "id": 2,
-            "imgUrl": "https://cdn2.jianshu.io/assets/web/banner-s-club-aa8bdf19f8cf729a759da42e4a96f366.png"
-        },{
-            "id": 3,
-            "imgUrl": "https://cdn2.jianshu.io/assets/web/banner-s-7-1a0222c91694a1f38e610be4bf9669be.png"
-        },{
-            "id": 4,
-            "imgUrl": "https://cdn2.jianshu.io/assets/web/banner-s-5-4ba25cf5041931a0ed2062828b4064cb.png"
-        }
+        "recommendList": [
+            {
+                "id": 1,
+                "imgUrl": "https://cdn2.jianshu.io/assets/web/banner-s-daily-e6f6601abc495573ad37f2532468186f.png"
+            },
+            {
+                "id": 2,
+                "imgUrl": "https://cdn2.jianshu.io/assets/web/banner-s-club-aa8bdf19f8cf729a759da42e4a96f366.png"
+            },
+            {
+                "id": 3,
+                "imgUrl": "https://cdn2.jianshu.io/assets/web/banner-s-7-1a0222c91694a1f38e610be4bf9669be.png"
+            },
+            {
+                "id": 4,
+                "imgUrl": "https://cdn2.jianshu.io/assets/web/banner-s-5-4ba25cf5041931a0ed2062828b4064cb.png"
+            }
         ],
-        "writterList": [{
-            "id": 1,
-            "imgUrl": "https://upload.jianshu.io/users/upload_avatars/14715425/e0668349-8c75-43db-8a9d-c388e5f00d0d.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96/format/jpg",
-            "writter": "简书钻首席小管家",
-            "number": "452.6k",
-            "like": "104.9k"
-        },{
-            "id": 2,
-            "imgUrl": "https://upload.jianshu.io/users/upload_avatars/301940/189d69dd-af7c-4290-9e2c-89e98acf3603.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96/format/jpg",
-            "writter": "卢璐说",
-            "number": "1867.8k",
-            "like": "33.6k"
-        },{
-            "id": 3,
-            "imgUrl": "https://upload.jianshu.io/users/upload_avatars/3730494/a5859e59-509d-4d2c-a594-d8d6e5c23d68.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96/format/jpg",
-            "writter": "格列柯南",
-            "number": "760.5k",
-            "like": "18.2k"
-        },{
-            "id": 4,
-            "imgUrl": "https://upload.jianshu.io/users/upload_avatars/7133325/f4370cf6-cf4d-4839-9b54-87beaa767d48?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96/format/jpg",
-            "writter": "Hobbit霍比特人",
-            "number": "371.2k",
-            "like": "1.4k"
-        },{
-            "id": 5,
-            "imgUrl": "https://upload.jianshu.io/users/upload_avatars/9988193/fc26c109-1ae6-4327-a298-2def343e9cd8.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96/format/jpg",
-            "writter": "董克平日记",
-            "number": "1229.1k",
-            "like": "5.5k"
-        }
-    ]
-}
+        "writterList": [
+            {
+                "id": 1,
+                "imgUrl": "https://upload.jianshu.io/users/upload_avatars/14715425/e0668349-8c75-43db-8a9d-c388e5f00d0d.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96/format/jpg",
+                "writter": "简书钻首席小管家",
+                "number": "452.6k",
+                "like": "104.9k"
+            },
+            {
+                "id": 2,
+                "imgUrl": "https://upload.jianshu.io/users/upload_avatars/301940/189d69dd-af7c-4290-9e2c-89e98acf3603.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96/format/jpg",
+                "writter": "卢璐说",
+                "number": "1867.8k",
+                "like": "33.6k"
+            },
+            {
+                "id": 3,
+                "imgUrl": "https://upload.jianshu.io/users/upload_avatars/3730494/a5859e59-509d-4d2c-a594-d8d6e5c23d68.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96/format/jpg",
+                "writter": "格列柯南",
+                "number": "760.5k",
+                "like": "18.2k"
+            },
+            {
+                "id": 4,
+                "imgUrl": "https://upload.jianshu.io/users/upload_avatars/7133325/f4370cf6-cf4d-4839-9b54-87beaa767d48?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96/format/jpg",
+                "writter": "Hobbit霍比特人",
+                "number": "371.2k",
+                "like": "1.4k"
+            },
+            {
+                "id": 5,
+                "imgUrl": "https://upload.jianshu.io/users/upload_avatars/9988193/fc26c109-1ae6-4327-a298-2def343e9cd8.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96/format/jpg",
+                "writter": "董克平日记",
+                "number": "1229.1k",
+                "like": "5.5k"
+            }
+        ]
+    }
 }

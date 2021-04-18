@@ -1,5 +1,5 @@
-import styled from 'styled-components';
-import logoPic from '../../statics/logo.png';
+import styled from "styled-components";
+import logoPic from "../../statics/logo.png";
 
 export const HeadWrapper = styled.div`
     z-index: 1;
@@ -8,7 +8,7 @@ export const HeadWrapper = styled.div`
     border-bottom: 1px solid #f0f0f0;
 `;
 
-export const Logo = styled.div `
+export const Logo = styled.div`
     position: absolute;
     top: 0;
     left: 0;
@@ -17,7 +17,7 @@ export const Logo = styled.div `
     height: 56px;
     background: url(${logoPic});
     background-size: contain;
-    `;
+`;
 
 export const Nav = styled.div`
     width: 960px;
@@ -43,7 +43,7 @@ export const NavItem = styled.div`
     &.active {
         color: #ea6f5a;
     }
-`
+`;
 
 export const SearchWrapper = styled.div`
     position: relative;
@@ -61,10 +61,10 @@ export const SearchWrapper = styled.div`
             color: #fff;
         }
     }
-`
+`;
 
 export const NavSearch = styled.input.attrs({
-    placeholder: '搜索'
+    placeholder: "搜索",
 })`
     width: 160px;
     height: 38px;
@@ -86,35 +86,35 @@ export const NavSearch = styled.input.attrs({
     }
     &.slide-enter {
         width: 160px;
-        transition: all .2s ease-out;
+        transition: all 0.2s ease-out;
     }
     &.slide-enter-active {
         width: 240px;
     }
     &.slide-exit {
-        transition: all .2s ease-out;
+        transition: all 0.2s ease-out;
     }
     &.slide-exit-active {
         width: 160px;
     }
-`
-export const SearchInfo = styled.div `
+`;
+export const SearchInfo = styled.div`
     position: absolute;
     left: 0;
     top: 56px;
     width: 240px;
     padding: 0 20px;
-    box-shadow: 0 0 8px rgba(0, 0, 0, .2);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
     background: #fff;
-`
-export const SearchInfoTitle = styled.div `
+`;
+export const SearchInfoTitle = styled.div`
     margin-top: 20px;
     margin-bottom: 15px;
     line-height: 20px;
     font-size: 14px;
     color: #969696;
-`
-export const SearchInfoSwitch = styled.span `
+`;
+export const SearchInfoSwitch = styled.span`
     float: right;
     font-size: 13px;
     cursor: pointer;
@@ -123,20 +123,20 @@ export const SearchInfoSwitch = styled.span `
         float: left;
         size: 12px;
         margin-right: 2px;
-        transition: all .2s ease-in;
+        transition: all 0.2s ease-in;
         transform: rotate(0deg);
         transform-origin: center center;
     }
-`
+`;
 
-export const SearchInfoList = styled.div `
+export const SearchInfoList = styled.div`
     overflow: hidden;
     margin-top: 10px;
-`
+`;
 
-export const SearchInfoItem = styled.a `
+export const SearchInfoItem = styled.a`
     display: block;
-    float: left;    
+    float: left;
     padding: 0 5px;
     margin-right: 10px;
     margin-bottom: 10px;
@@ -145,14 +145,14 @@ export const SearchInfoItem = styled.a `
     border: 1px solid #ddd;
     color: #787878;
     border-radius: 3px;
-`
+`;
 
 export const Addition = styled.div`
     position: absolute;
     right: 0;
     top: 0;
     height: 56px;
-`
+`;
 
 export const Button = styled.button`
     float: right;
@@ -172,4 +172,4 @@ export const Button = styled.button`
         color: #fff;
         background: #ec6149;
     }
-`
+`;

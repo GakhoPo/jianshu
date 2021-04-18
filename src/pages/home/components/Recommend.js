@@ -13,7 +13,7 @@ class Recommend extends PureComponent {
                     )
                 })}
             </RecommendWapper>
-         );
+        );
     }
 }
 

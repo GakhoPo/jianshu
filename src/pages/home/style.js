@@ -1,31 +1,31 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
-export const HomeWrapper = styled.div `
+export const HomeWrapper = styled.div`
     overflow: hidden;
     width: 960px;
     margin: 0 auto;
-`
+`;
 
-export const HomeLeft = styled.div `
+export const HomeLeft = styled.div`
     margin-left: 15px;
     padding-top: 30px;
     width: 625px;
     float: left;
-`
+`;
 
-export const HomeRight = styled.div `
+export const HomeRight = styled.div`
     width: 280px;
     float: right;
-`
+`;
 
-export const TopicWrapper = styled.div `
+export const TopicWrapper = styled.div`
     overflow: hidden;
     padding: 20px 0 10px 0;
     margin-left: -18px;
     border-bottom: 1px solid #dcdcdc;
-`
+`;
 
-export const TopicItem = styled.div `
+export const TopicItem = styled.div`
     float: left;
     height: 32px;
     line-height: 32px;
@@ -38,9 +38,9 @@ export const TopicItem = styled.div `
     color: #000;
     border: 1px solid #dcdcdc;
     border-radius: 4px;
-`
+`;
 
-export const ListItem = styled.div `
+export const ListItem = styled.div`
     overflow: hidden;
     padding: 20px 0;
     border-bottom: 1px solid #dcdcdc;
@@ -51,9 +51,9 @@ export const ListItem = styled.div `
         float: right;
         border-radius: 3px;
     }
-`
+`;
 
-export const ListInfo = styled.div `
+export const ListInfo = styled.div`
     width: 500px;
     float: left;
     overflow: hidden;
@@ -71,7 +71,7 @@ export const ListInfo = styled.div `
     div {
         float: left;
         margin-top: 20px;
-    } 
+    }
     span {
         color: #b4b4b4;
         font-size: 10px;
@@ -87,22 +87,22 @@ export const ListInfo = styled.div `
             color: #ea6f5a;
         }
     }
-`
+`;
 
-export const RecommendWapper = styled.div `
+export const RecommendWapper = styled.div`
     margin: 30px 0;
     width: 280px;
-`
+`;
 
-export const RecommendItem = styled.div `
+export const RecommendItem = styled.div`
     width: 280px;
     height: 50px;
     background: url(${(props) => props.imgUrl});
     background-size: contain;
     margin-bottom: 10px;
-`
+`;
 
-export const ScanWrapper = styled.div `
+export const ScanWrapper = styled.div`
     width: 280px;
     height: 55px;
     padding: 10px 22px;
@@ -114,9 +114,9 @@ export const ScanWrapper = styled.div `
         width: 60px;
         height: 60px;
     }
-`
+`;
 
-export const ScanContent = styled.div `
+export const ScanContent = styled.div`
     display: block;
     float: left;
     margin-top: 10px;
@@ -129,21 +129,21 @@ export const ScanContent = styled.div `
         font-size: 13px;
         color: #999999;
     }
-`
+`;
 
-export const WritterWrapper = styled.div `
+export const WritterWrapper = styled.div`
     width: 280px;
-`
+`;
 
-export const WritterHead = styled.div `
+export const WritterHead = styled.div`
     font-size: 14px;
     color: #969696;
     overflow: hidden;
     text-align: right;
     margin-bottom: 10px;
-`
+`;
 
-export const WritterHeadItem = styled.span `
+export const WritterHeadItem = styled.span`
     &.right {
         display: block;
         float: left;
@@ -152,8 +152,8 @@ export const WritterHeadItem = styled.span `
         display: block;
         float: left;
     }
-`
-export const WritterList = styled.li `
+`;
+export const WritterList = styled.li`
     width: 280px;
     overflow: hidden;
     margin-bottom: 10px;
@@ -186,9 +186,9 @@ export const WritterList = styled.li `
         color: #48c02e;
         font-size: 13px;
     }
-`
+`;
 
-export const LoadMore = styled.div `
+export const LoadMore = styled.div`
     width: 100%;
     margin: 30px 0;
     height: 40px;
@@ -198,9 +198,9 @@ export const LoadMore = styled.div `
     border-radius: 20px;
     color: #fff;
     cursor: pointer;
-`
+`;
 
-export const BackTop = styled.div `
+export const BackTop = styled.div`
     position: fixed;
     right: 100px;
     bottom: 100px;
@@ -212,4 +212,4 @@ export const BackTop = styled.div `
     border-radius: 50%;
     font-size: 14px;
     cursor: pointer;
-`
+`;

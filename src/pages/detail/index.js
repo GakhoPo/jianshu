@@ -12,7 +12,7 @@ class Detail extends PureComponent {
                 <Header>{title}</Header>
                 <Content dangerouslySetInnerHTML={{__html: content}}/>
             </DetailWrapper>
-         );
+        );
     }
 
     componentDidMount(){

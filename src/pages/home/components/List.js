@@ -48,7 +48,7 @@ class List extends PureComponent {
                 <LoadMore onClick={() => getMoreList(page)}>加载更多</LoadMore>
             </div> 
             
-         );
+        );
     }
 }
 

@@ -1,6 +1,7 @@
 {
     "success": true,
-    "data": [{
+    "data": [
+        {
             "id": 7,
             "imgUrl": "https://upload-images.jianshu.io/upload_images/23488806-8ebae730d29122c4.JPG?imageMogr2/auto-orient/strip|imageView2/1/w/360/h/240",
             "title": "戴望舒——在最美的时光里错过",
@@ -10,7 +11,8 @@
             "comment": 140,
             "like": 1039,
             "shang": 4
-        },{
+        },
+        {
             "id": 8,
             "imgUrl": "https://upload-images.jianshu.io/upload_images/1202579-5fdd95192a9891fd.image?imageMogr2/auto-orient/strip|imageView2/1/w/360/h/240",
             "title": "香港情侣在5平米廉租房的一幕，撕开了穷人最心酸的遮羞布",
@@ -20,7 +22,8 @@
             "comment": 107,
             "like": 667,
             "shang": 1
-        },{
+        },
+        {
             "id": 9,
             "imgUrl": "https://upload-images.jianshu.io/upload_images/5172867-6f40931386bedfe9?imageMogr2/auto-orient/strip|imageView2/1/w/360/h/240",
             "title": "30岁后，再看林徽因与张爱玲：一个“世故”，一个“凉薄”",
@@ -30,7 +33,8 @@
             "comment": 37,
             "like": 424,
             "shang": 1
-        },{
+        },
+        {
             "id": 10,
             "imgUrl": "https://upload-images.jianshu.io/upload_images/3095874-06edb5465e2c818e.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/360/h/240",
             "title": "《两地书》：那么远，这么近",
@@ -40,7 +44,8 @@
             "comment": 6,
             "like": 32,
             "shang": 1
-        },{
+        },
+        {
             "id": 11,
             "imgUrl": "https://upload-images.jianshu.io/upload_images/1222654-5f5e5673bcc99dcb.png?imageMogr2/auto-orient/strip|imageView2/1/w/360/h/240",
             "title": "谈谈“B端C端化”",
@@ -50,7 +55,8 @@
             "comment": 11,
             "like": 147,
             "shang": 2
-        },{
+        },
+        {
             "id": 12,
             "imgUrl": "https://upload-images.jianshu.io/upload_images/1179389-f501d16f552d5359.png?imageMogr2/auto-orient/strip|imageView2/1/w/360/h/240",
             "title": "自从掌握了软件开发的 5 条核心原则，我每天工作时至少可以多摸鱼 4 个小时",
@@ -61,5 +67,5 @@
             "like": 100,
             "shang": 0
         }
-        ]
+    ]
 }
