@@ -6,7 +6,7 @@ Build Jianshu WebSite based on Jianshu offical website model.
 
 react, redux, redux-thunk, immutable, react-components, react-loadable, axios and react-router-dom
 
-##Basic Functions
+## Basic Functions
 
 The project is mainly focused on rewriting JianShu Website and finishing the basic functions such as switch trending search, click to load more
 content, using React lifecycle to finish Asynchronous operation.
