@@ -6,6 +6,7 @@ const LoadableComponent = Loadable({
     loading() {
         return <div>Loading...</div>;
     },
+    delay: 200,
 });
 
 const LoadableFunction = () => <LoadableComponent />;
