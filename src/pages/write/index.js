@@ -1,7 +1,7 @@
 import React, { PureComponent } from "react";
 import { Redirect } from "react-router-dom";
 import { connect } from "react-redux";
-import { EssayWrapper } from "./style";
+import { EssayWrapper, EssayComponent, SubmitEssay } from "./style";
 
 class Write extends PureComponent {
     render() {
@@ -9,7 +9,10 @@ class Write extends PureComponent {
 
         if (loginStatus) {
             return (
-                <EssayWrapper placeholder='Write your essay here!'></EssayWrapper>
+                <EssayWrapper>
+                    <EssayComponent placeholder='Write your essay here!'></EssayComponent>
+                    <SubmitEssay type='submit' value='Submit your essay!' />
+                </EssayWrapper>
             );
         } else {
             return <Redirect to='/login' />;
