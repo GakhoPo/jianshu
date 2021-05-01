@@ -209,7 +209,9 @@ export const BackTop = styled.div`
     line-height: 60px;
     text-align: center;
     border: 1px solid #ccc;
-    border-radius: 50%;
+    border-radius: 25%;
     font-size: 14px;
     cursor: pointer;
+    background-color: #ec6149;
+    color: #eee;
 `;
