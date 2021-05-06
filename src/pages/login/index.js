@@ -17,6 +17,7 @@ class Login extends PureComponent {
                             ref={(input) => {
                                 this.account = input;
                             }}
+                            required
                         />
                         <Input
                             placeholder='密码'
@@ -24,6 +25,7 @@ class Login extends PureComponent {
                             ref={(input) => {
                                 this.password = input;
                             }}
+                            required
                         />
                         <Button
                             onClick={() =>
