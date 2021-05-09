@@ -3,7 +3,9 @@ import logoPic from "../../statics/logo.png";
 
 export const HeadWrapper = styled.div`
     z-index: 1;
-    position: relative;
+    position: sticky;
+    top: 0;
+    background-color: white;
     height: 56px;
     border-bottom: 1px solid #f0f0f0;
 `;
