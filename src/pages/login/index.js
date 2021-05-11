@@ -6,7 +6,7 @@ import { LoginWrapper, LoginBox, Input, Button } from "./style";
 
 class Login extends PureComponent {
     render() {
-        const { loginStatus } = this.props;
+        const { loginStatus, loginForm } = this.props;
 
         if (!loginStatus) {
             return (
@@ -29,7 +29,7 @@ class Login extends PureComponent {
                         />
                         <Button
                             onClick={() =>
-                                this.props.login(this.account, this.password)
+                                loginForm(this.account, this.password)
                             }
                         >
                             登陆
@@ -48,7 +48,7 @@ const mapState = (state) => ({
 });
 
 const mapDispatch = (dispatch) => ({
-    login(accountElem, passwordElem) {
+    loginForm(accountElem, passwordElem) {
         dispatch(actionCreators.login(accountElem.value, passwordElem.value));
     },
 });
